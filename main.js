@@ -3,11 +3,11 @@ console.log("Imprimir mensajes en consola");
 //alert("Imprimir mensaje en una ventana");
 
 var x = 0;
-var name = "Luz";
+var name = "Liz";
 
 var ciertoFalso = true;
 
-var myArray = ["Luz", "Fernando", "Leo", "Melissa"];
+var myArray = ["Liz", "Fernando", "Leo", "Melissa"];
 
 var body = document.getElementsByTagName("body");
 

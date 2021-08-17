@@ -1,4 +1,4 @@
-* {
+{
     font-family: Arial, sans-serif;
 
 }
@@ -7,7 +7,7 @@ body{
     background-color: rgb(200, 202, 200);
 }
 h1 {
-    color:rgb(231, 156, 44) !important;
+    color:rgb(143, 95, 95) !important;
 }
 
 .container {
@@ -17,14 +17,14 @@ h1 {
 header{
     display: block;
     padding: 12px;
-    background-color: rgb(33, 108, 206);
+    background-color: rgb(104, 0, 0);
     text-align: right;
 
 }
 
 header a {
     display: block;
-    color:white;
+    color:rgb(255, 4, 4);
 }
 
 
@@ -37,7 +37,7 @@ ul li {
 }
 
 aside {
-    background: rgb(127, 180, 230);
+    background: rgba(57, 70, 187, 0.432);
 }
 
 .container {
@@ -50,7 +50,7 @@ footer {
     height: 70px;
     width: 100%;
     padding-top:20px;
-    background: rgb(255, 150, 80);
+    background: rgb(253, 253, 253);
 }
 
 .card{
@@ -83,7 +83,7 @@ footer {
 }
 
 button, .btn.btn-primary {
-    background: rgb(83, 168, 218);
-    border: solid 1px black;
-    color:black
+    background: rgb(22, 22, 22);
+    border: solid 1px rgb(7, 73, 104);
+    color:rgb(255, 254, 254)
 }

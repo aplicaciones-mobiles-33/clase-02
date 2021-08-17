@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -7,7 +7,7 @@ body{
     background-color: rgb(200, 202, 200);
 }
 h1 {
-    color:rgb(231, 156, 44) !important;
+    color:rgb(42, 148, 0) !important;
 }
 
 .container {
@@ -17,8 +17,8 @@ h1 {
 header{
     display: block;
     padding: 12px;
-    background-color: rgb(33, 108, 206);
-    text-align: right;
+    background-color: rgb(14, 134, 3);
+    text-align: left;
 
 }
 
@@ -37,7 +37,7 @@ ul li {
 }
 
 aside {
-    background: rgb(127, 180, 230);
+    background: rgb(197, 250, 197);
 }
 
 .container {
@@ -47,10 +47,10 @@ aside {
 footer {
     position: absolute;
     bottom: 0;
-    height: 70px;
+    height: 50px;
     width: 100%;
-    padding-top:20px;
-    background: rgb(255, 150, 80);
+    padding-top:15px;
+    background: rgb(255, 137, 137);
 }
 
 .card{
@@ -67,15 +67,15 @@ footer {
 }
 
 [class^="group"]span {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700;
     display: block;
 
 }
 
 [class^="group"] span.number {
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 [class^="group"].col-4{
@@ -84,6 +84,6 @@ footer {
 
 button, .btn.btn-primary {
     background: rgb(83, 168, 218);
-    border: solid 1px black;
+    border: thin 2px black;
     color:black
 }

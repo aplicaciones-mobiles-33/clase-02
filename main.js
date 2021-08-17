@@ -1,13 +1,12 @@
 console.log("Imprimir mensajes en consola");
 
-//alert("Imprimir mensaje en una ventana");
 
 var x = 0;
 var name = "Luz";
 
 var ciertoFalso = true;
 
-var myArray = ["Luz", "Luis Eduardo", "Leo", "Melissa"];
+var myArray = ["Luz", "Fernando", "Leo", "Melissa"];
 
 var body = document.getElementsByTagName("body");
 
@@ -17,9 +16,10 @@ var row = document.getElementsByClassName("row");
 
 ciertoFalso = false;
 
-function imprimirMensaje(){
-    for(var i = 0; i <  row.length; i++) {
-        row[i].classList.add("row-" +i);
+function imprimirMensaje() {
+    alert("Imprimir mensaje en una ventana");
+    for (var i = 0; i < row.length; i++) {
+        row[i].classList.add("row-" + i);
         console.log(row[i]);
     }
 }

@@ -1,3 +1,54 @@
 * {
     font-family: Arial, sans-serif;
 }
+
+header{
+    background-color:#69765F    ;
+    color: white;
+    padding: 30px;
+}
+
+footer{
+   padding: 20px; 
+   position: relative;
+   bottom:0;
+   width:100%;
+   height:60px;  
+   background:#69765F;
+   color: white;
+   text-align: center;
+}
+
+aside{
+    height: 800px;
+    padding: 30px;
+}
+
+main{
+    height: 800px;
+    background-color: #F2ECE4;
+    padding: 20px;
+}
+
+.card{
+    margin: 20px;  
+    box-shadow: 5px 5px 4px gray;
+}
+
+li{
+    background-color: #69765F;
+    list-style: none;
+
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#home{
+    margin-left: 20%;
+}

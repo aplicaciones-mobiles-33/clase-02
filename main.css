@@ -1,64 +1,61 @@
 * {
-    font-family: Arial, sans-serif;
-
+    font-family:monospace;
 }
 
-body{
-    background-color: rgb(200, 202, 200);
-}
-h1 {
-    color:rgb(231, 156, 44) !important;
+h1{
+    color: blue !important;
 }
 
-.container {
+.container{
     max-width: initial;
 }
 
 header{
     display: block;
     padding: 12px;
-    background-color: rgb(33, 108, 206);
-    text-align: right;
-
+    background-color: rgb(80, 76, 80);
 }
 
-header a {
+header a{
     display: block;
-    color:white;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    padding-top: 20px;
+    background: rgb(71, 71, 71);
+    color: white;
 
-main {
+}   
+
+.card{
+    margin-bottom: 20px;
+}
+
+.content{
+    padding: 20px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+main{
     display: block;
 }
 
-ul li {
+ul li{
     list-style: none;
 }
 
 aside {
-    background: rgb(127, 180, 230);
-}
+    background:rgb(209, 204, 204);
 
-.container {
-    margin: 0;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    height: 70px;
-    width: 100%;
-    padding-top:20px;
-    background: rgb(255, 150, 80);
-}
-
-.card{
-    margin-bottom: 10px;
-}
-
-.content {
-    padding: 20px;
 }
 
 [class^="group"]{
@@ -70,7 +67,6 @@ footer {
     font-size: 14px;
     font-weight: 700;
     display: block;
-
 }
 
 [class^="group"] span.number {
@@ -82,8 +78,8 @@ footer {
     width: calc(33% - 4px);
 }
 
-button, .btn.btn-primary {
-    background: rgb(83, 168, 218);
-    border: solid 1px black;
-    color:black
+button, .btn.btn-primary{
+    background: rgb(77, 151, 235);
+    border:  solid 1px black;
+    color: black;
 }

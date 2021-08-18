@@ -7,7 +7,7 @@ var name = "Luz";
 
 var ciertoFalso = true;
 
-var myArray = ["Luz", "Luis Eduardo", "Leo", "Melissa"];
+var myArray = ["Luz", "Juan", "Leo", "Melissa"];
 
 var body = document.getElementsByTagName("body");
 

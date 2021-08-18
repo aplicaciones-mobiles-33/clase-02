@@ -7,7 +7,7 @@ var name = "Luz";
 
 var ciertoFalso = true;
 
-var myArray = ["Luz", "Luis Eduardo", "Leo", "Melissa"];
+var myArray = ["Luz", "Fernando", "Leo", "Melissa"];
 
 var body = document.getElementsByTagName("body");
 
@@ -17,9 +17,9 @@ var row = document.getElementsByClassName("row");
 
 ciertoFalso = false;
 
-function imprimirMensaje(){
-    for(var i = 0; i <  row.length; i++) {
-        row[i].classList.add("row-" +i);
+function imprimirMensaje() {
+    for (var i = 0; i < row.length; i++) {
+        row[i].classList.add("row-" + i);
         console.log(row[i]);
     }
 }

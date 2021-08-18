@@ -1,4 +1,4 @@
-* {
+*{
     font-family: Arial, sans-serif;
 
 }
@@ -55,10 +55,11 @@ footer {
 
 .card{
     margin-bottom: 10px;
+    
 }
 
 .content {
-    padding: 20px;
+    padding: 100px;
 }
 
 [class^="group"]{
